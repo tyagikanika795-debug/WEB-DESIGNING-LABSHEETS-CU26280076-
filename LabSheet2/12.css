@@ -1,0 +1,30 @@
+.payment {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.payment label {
+    display: block;
+    margin-top: 10px;
+}
+
+.payment input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.payment button {
+    margin-top: 15px;
+    padding: 10px 25px;
+}
+
+@media (max-width: 600px) {
+    .payment {
+        width: 90%;
+    }
+
+    .payment input {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    min-height: 400px;
+}
+
+nav {
+    width: 25%;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    margin: 15px 0;
+}
+
+main {
+    width: 75%;
+    padding: 20px;
+}

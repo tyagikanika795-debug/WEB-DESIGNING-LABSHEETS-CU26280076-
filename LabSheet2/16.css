@@ -1,0 +1,26 @@
+form {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.row {
+    margin: 15px;
+}
+
+.row label {
+    width: 150px;
+    float: left;
+}
+
+.row input,
+.row select {
+    padding: 7px;
+}
+
+.clear {
+    clear: both;
+}
+
+button {
+    padding: 10px 20px;
+}

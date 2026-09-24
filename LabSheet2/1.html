@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Form</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <h2>Basic HTML Form</h2>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password">
+
+        <p>Gender:</p>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+
+        <p>Hobbies:</p>
+        <label><input type="checkbox" name="hobby" value="reading"> Reading</label>
+        <label><input type="checkbox" name="hobby" value="sports"> Sports</label>
+        <label><input type="checkbox" name="hobby" value="music"> Music</label>
+
+        <label for="course">Course:</label>
+        <select id="course">
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>B.Tech</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

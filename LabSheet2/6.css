@@ -1,0 +1,22 @@
+.form {
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 8px;
+}
+
+textarea {
+    height: 60px;
+}
+
+button {
+    grid-column: 2;
+    width: 100px;
+    padding: 10px;
+}

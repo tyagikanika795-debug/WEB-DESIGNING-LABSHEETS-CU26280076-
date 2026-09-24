@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Step Form</title>
+    <link rel="stylesheet" href="20.css">
+</head>
+<body>
+    <form>
+        <div id="step1" class="step">
+            <h2>Step 1</h2>
+            <input type="text" placeholder="Your Name">
+
+            <button type="button" onclick="nextStep()">
+                Next
+            </button>
+        </div>
+
+        <div id="step2" class="step">
+            <h2>Step 2</h2>
+            <input type="email" placeholder="Your Email">
+
+            <button type="button" onclick="previousStep()">
+                Back
+            </button>
+
+            <button type="button" onclick="nextStep()">
+                Next
+            </button>
+        </div>
+
+        <div id="step3" class="step">
+            <h2>Step 3</h2>
+            <input type="text" placeholder="Your City">
+
+            <button type="button" onclick="previousStep()">
+                Back
+            </button>
+
+            <button type="submit">
+                Finish
+            </button>
+        </div>
+    </form>
+
+    <script>
+        let current = 1;
+
+        function nextStep() {
+            document.getElementById("step" + current).style.display = "none";
+            current++;
+            document.getElementById("step" + current).style.display = "block";
+        }
+
+        function previousStep() {
+            document.getElementById("step" + current).style.display = "none";
+            current--;
+            document.getElementById("step" + current).style.display = "block";
+        }
+    </script>
+</body>
+</html>

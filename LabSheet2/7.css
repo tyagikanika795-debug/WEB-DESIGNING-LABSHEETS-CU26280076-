@@ -1,0 +1,24 @@
+form {
+    width: 350px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #aaa;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border-color: blue;
+    background-color: #eaf3ff;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+}

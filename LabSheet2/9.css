@@ -1,0 +1,17 @@
+form {
+    width: 500px;
+    margin: 30px auto;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+}

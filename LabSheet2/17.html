@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Inputs</title>
+</head>
+<body>
+    <h2>User Form</h2>
+
+    <form action="submit.html" method="post">
+        <!-- Hidden values are sent with the form -->
+        <input type="hidden" name="session_id" value="ABC123">
+        <input type="hidden" name="user_id" value="1001">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p>
+        Note: Hidden fields are not secure storage for sensitive information.
+    </p>
+</body>
+</html>

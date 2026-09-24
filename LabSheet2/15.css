@@ -1,0 +1,11 @@
+.search {
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #555;
+    transition: width 0.5s;
+}
+
+.search:focus {
+    width: 350px;
+    outline: none;
+}

@@ -1,0 +1,17 @@
+button {
+    background-color: green;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}

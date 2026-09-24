@@ -1,0 +1,33 @@
+body {
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px #aaa;
+}
+
+.lock {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 30px;
+    cursor: pointer;
+}

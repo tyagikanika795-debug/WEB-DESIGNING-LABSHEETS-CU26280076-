@@ -1,0 +1,29 @@
+form {
+    width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+}

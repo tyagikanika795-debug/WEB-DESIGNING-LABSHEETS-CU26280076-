@@ -1,0 +1,36 @@
+.contact {
+    display: flex;
+    gap: 30px;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.form,
+.location {
+    flex: 1;
+    padding: 25px;
+    border: 1px solid #aaa;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.form textarea {
+    height: 100px;
+}
+
+.form button {
+    padding: 10px 20px;
+}
+
+@media (max-width: 700px) {
+    .contact {
+        width: 90%;
+        flex-direction: column;
+    }
+}
